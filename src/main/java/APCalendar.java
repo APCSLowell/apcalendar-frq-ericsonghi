@@ -56,17 +56,17 @@ return x;
    */
   public static int dayOfWeek(int month, int day, int year)
   {
-int return = 0;
+int returne = 0;
     int dayOne = firstDayOfYear(year);
     int lastDay = dayOfYear(month, day, year);
 
     for(int i = dayOne; i < lastDay; i++){
-        return++;
-        if(return == 7){
-            return = 0;
+        returne++;
+        if(returne == 7){
+            returne = 0;
         }
     }
-    return return;
+    return returne;
 
 
 
