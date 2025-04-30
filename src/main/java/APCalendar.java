@@ -59,7 +59,7 @@ int returne = 0;
     int dayOne = firstDayOfYear(year);
     int lastDay = dayOfYear(month, day, year);
 
-    for(int i = dayOne; i < lastDay; i++){
+    for(int i = dayOne; i <= lastDay; i++){
         returne++;
         if(returne == 7){
             returne = 0;
